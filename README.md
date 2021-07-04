@@ -1,9 +1,9 @@
 # Mixed messages project
 
 ## table of contents
-    * [general info](#-general-info)
-    * [technologies](#-technologies)
-    * [status](#-status)
+    * [general info](#general-info)
+    * [technologies](#technologies)
+    * [status](#status)
 
 ### general info
 this project was built to generate a random message everytime the program is run. 
