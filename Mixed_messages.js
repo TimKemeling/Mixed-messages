@@ -39,9 +39,11 @@ const randomFact = () =>{
     return `${i}! Did you know that ${f}? ${signOff}!`
 }
 
-let num = Math.floor(Math.random() * 3)
 
-switch (num) {
+//funtion to call to generate one of three random messages
+const finalMessage = () => {
+    let num = Math.floor(Math.random() * 3) 
+    switch (num) {
     case 0:
         console.log(randomEncouragement())
         break;
@@ -51,4 +53,7 @@ switch (num) {
     case 2:
         console.log(randomFact())
         break;
+    }
 }
+//actual function call
+finalMessage()
